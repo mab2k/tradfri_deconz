@@ -16,7 +16,7 @@ blueprint:
       description: IKEA remote to use
       selector:
         device:
-          integration: deConz
+          integration: deCONZ
     light:
       name: Light(s)
       description: The light(s) to control
