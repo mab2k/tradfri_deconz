@@ -9,6 +9,7 @@ blueprint:
 
     The "left" and "right" buttons can be assigned to an short and long button press action. This allows you to assign, e.g., a scene or anything else.
     '
+  source_url: https://github.com/mab2k/tradfri_deconz/blob/main/tradfri_deconz.yaml
   domain: automation
   input:
     remote:
