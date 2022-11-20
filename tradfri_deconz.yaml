@@ -12,11 +12,13 @@ blueprint:
   domain: automation
   input:
     remote:
-      name: Remote
-      description: IKEA remote to use
+      name: IKEA TRÅDFRI Remote Control
+      description: IKEA TRÅDFRI Remote Control to utilize
       selector:
         device:
-          integration: deCONZ
+          integration: deconz
+          manufacturer: IKEA of Sweden
+          model: TRADFRI remote control
     light:
       name: Light(s)
       description: The light(s) to control
